@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/verdana-pro-cond" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Rugby Counter</h1>
+        <div class="container">
+            
+            <div>
+                <h3>HOME</h3>
+                <p class="score" id="home-el">0</p>
+                <button onclick="homeTwo()">+2</button>
+                <button onclick="homeThree()">+3</button>
+                <button onclick="homeFive()">+5</button>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <p class="score" id="guest-el">0</p>
+                <button onclick="guestTwo()">+2</button>
+                <button onclick="guestThree()">+3</button>
+                <button onclick="guestFive()">+5</button>
+            </div>
+        </div>
+        <button id="restart-btn" onclick="restart()">New Game</button>
+        <script src="index.js"></script>
+    </body>
+</html>
